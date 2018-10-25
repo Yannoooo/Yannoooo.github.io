@@ -1,0 +1,190 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Oswald';
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 16px;
+    columns: #515151;
+    text-transform: uppercase;
+}
+
+hr {
+    width: 170px;
+    height: 3px;
+    background: #ffe600;
+}
+
+.header {
+    background: url('../img/howwedobg.jpg') center center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.menu-top .nav-link {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff !important;
+    font-weight: 700;
+}
+
+.menu-top .nav-item {
+    list-style: square;
+    color: #ffe600;
+    margin: 0 12px;
+}
+
+.menu-top .nav-item:first-child {
+    list-style: none;
+}
+
+.menu-top .nav-link:hover {
+    color: #ffe600 !important;
+}
+
+.menu-top {
+    background: rgba(19, 19, 22, .3);
+}
+
+.header {
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.header .title h1 {
+    font-size: 65px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header .title .btn {
+    text-transform: uppercase;
+    padding: 12px 50px;
+    background: #ffe600;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    border-radius: 0;
+}
+
+
+.service {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.service h4 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #131316;
+}
+
+.service .circle {
+    width: 105px;
+    height: 105px;
+    background: #ffe600;
+    border-radius: 50%;
+    margin: auto;
+    color: #ffffff;
+    border: 1px solid transparent;
+}
+
+.service .circle .fa {
+    font-size: 30px;
+    line-height: 105px;
+}
+
+.service .circle:hover {
+    background: #ffffff;
+    color: #ffe600;
+    border: 1px solid #000;
+}
+.options {
+	padding: 65px 0 75px;
+	background: url('./../img/howwedobg.jpg') center center;
+	background-size: cover;
+	color: #fff;
+	background-attachment: fixed;
+}
+.options img {
+	transition: 500ms;
+}
+.options img:hover  {
+	transform: rotate(360deg);
+}
+
+
+.works {
+    padding: 65px 0 60px;   
+}
+
+.works .nav {
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.works .nav .nav-link {
+    font-size: 16px;
+    color: #515151; 
+    font-weight: 400;
+}  
+.works .nav .nav-link:hover {
+    color: #ffe600; 
+    
+}  
+.works .tab-pane .row {
+    align-items: center;
+}
+@media (max-width: 500px) {
+    .header .title h1 {
+        font-size: 30px;
+    }
+    .header .title .btn {
+        font-size: 10px;
+        padding: 7px 20px;
+    }
+    .header .title {
+        top: 55%;
+    }
+}
+
+@media (max-width: 991px) {
+    .menu-top .nav-item:first-child {
+        list-style: square;
+    }
+}
+
+@media (max-width: 767px) {
+    .header .title h1 {
+        font-size: 45px;
+    }
+    .header .title .btn {
+        font-size: 15px;
+        padding: 8px 30px;
+    }
+    .header .title {
+        top: 50%;
+    }
+}
